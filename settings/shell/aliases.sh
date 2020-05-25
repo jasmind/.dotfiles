@@ -63,6 +63,7 @@ alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%
 alias gstat="git log --author="pawurb" --oneline --shortstat"
 alias gy="git branch | grep '^\*' | cut -d' ' -f2 | tr -d '\n' | pbcopy"
 alias gb="git checkout -"
+alias gmb="git merge -"
 
 function gm() { # Git Message: commit staged and quote all args as message
   git commit -m "$*"
